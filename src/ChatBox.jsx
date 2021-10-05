@@ -343,7 +343,6 @@ const SendMessageForm = styled.form`
                 <ProfileImg onClick={() => setToggle(!toggle)}></ProfileImg>
                 <ProfileImgUl>
                     <ProfileImgUlLi><Link to="/profile" style={{fontSize: '.9rem'}}>Profile</Link></ProfileImgUlLi>
-                    <ProfileImgUlLi2 onClick={logOut}><p className="text-sm">Logout</p></ProfileImgUlLi2>
                 </ProfileImgUl>
             </Buttons>
 
